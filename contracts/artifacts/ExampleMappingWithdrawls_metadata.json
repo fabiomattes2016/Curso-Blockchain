@@ -13,31 +13,12 @@
 						"type": "address"
 					}
 				],
-				"name": "myAddressMapping",
+				"name": "balanceReceived",
 				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "myMapping",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -45,20 +26,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "setMyAddressToTrue",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendMoney",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					}
 				],
-				"name": "setValue",
+				"name": "withdrawAllMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -77,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMapping.sol": "ExampleMapping"
+			"contracts/ExampleMapping2.sol": "ExampleMappingWithdrawls"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleMapping.sol": {
-			"keccak256": "0xd3d999dcb22b8242197c2473aeee914d5e561a0795856ea488e233df4052aff4",
+		"contracts/ExampleMapping2.sol": {
+			"keccak256": "0x71bba1cef9ee00a0d630e386266a31280bfcc986cc6a4c7961e3ccad4e9cc48c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://582c5da1c59691da5300e8c2e9b76b73683aefe72d1dccc1505a74b88d59227a",
-				"dweb:/ipfs/Qmcj4UvSnG4Ex9osqhLvezjcnsbiBAwLuPrK4Dnevxny3Z"
+				"bzz-raw://75189c558462ada74b1ba73e300da0a4b58bbaad06235c6a2171648e7d29060e",
+				"dweb:/ipfs/QmTC5v6FYaahhN5GioSQW1Mtz91aPXADwaEY7fgBQiSXpZ"
 			]
 		}
 	},

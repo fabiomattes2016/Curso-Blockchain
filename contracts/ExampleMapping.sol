@@ -8,4 +8,8 @@ contract ExampleMapping {
     function setValue(uint _index) public {
         myMapping[_index] = true;
     }
+
+    function setMyAddressToTrue() public {
+        myAddressMapping[msg.sender] = true;
+    }
 }

@@ -1,0 +1,305 @@
+{
+  "accounts": {
+    "account{0}": "0x4be738255DcF5e23E64d4b11B11b21Aa96F349F4",
+    "account{1}": "0x948Cd558DB891508E1f51A5F166eCA41FAF8A67D"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1750197967740,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x89d013671807821d99e843bf2f267e28a590bfcc34783e9e803460fc90e88742",
+        "contractName": "ExampleMapping",
+        "bytecode": "608060405234801561001057600080fd5b506101a9806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063552410771461003b5780637c66884414610057575b600080fd5b61005560048036038101906100509190610110565b610087565b005b610071600480360381019061006c9190610110565b6100b5565b60405161007e9190610158565b60405180910390f35b600160008083815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b60006020528060005260406000206000915054906101000a900460ff1681565b600080fd5b6000819050919050565b6100ed816100da565b81146100f857600080fd5b50565b60008135905061010a816100e4565b92915050565b600060208284031215610126576101256100d5565b5b6000610134848285016100fb565b91505092915050565b60008115159050919050565b6101528161013d565b82525050565b600060208201905061016d6000830184610149565b9291505056fea26469706673582212207b7ba4901d912549f85feb11fd40c63f8550984fbcd9bdedf58c6ea2b64ae42664736f6c634300080f0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198045758,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "2"
+        ],
+        "name": "setValue",
+        "type": "function",
+        "to": "created{1750197967740}",
+        "abi": "0x89d013671807821d99e843bf2f267e28a590bfcc34783e9e803460fc90e88742",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198901608,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xea707241ec273be3d3d7ea772d3d770605b9a1f2deaef76913c91172400b118e",
+        "contractName": "ExampleMapping",
+        "bytecode": "608060405234801561001057600080fd5b506102fd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80635524107714610051578063634899ce1461006d5780637c66884414610077578063b92ba3b8146100a7575b600080fd5b61006b600480360381019061006691906101d9565b6100d7565b005b610075610105565b005b610091600480360381019061008c91906101d9565b61015e565b60405161009e9190610221565b60405180910390f35b6100c160048036038101906100bc919061029a565b61017e565b6040516100ce9190610221565b60405180910390f35b600160008083815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b60006020528060005260406000206000915054906101000a900460ff1681565b60016020528060005260406000206000915054906101000a900460ff1681565b600080fd5b6000819050919050565b6101b6816101a3565b81146101c157600080fd5b50565b6000813590506101d3816101ad565b92915050565b6000602082840312156101ef576101ee61019e565b5b60006101fd848285016101c4565b91505092915050565b60008115159050919050565b61021b81610206565b82525050565b60006020820190506102366000830184610212565b92915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006102678261023c565b9050919050565b6102778161025c565b811461028257600080fd5b50565b6000813590506102948161026e565b92915050565b6000602082840312156102b0576102af61019e565b5b60006102be84828501610285565b9150509291505056fea2646970667358221220f116c5027045218e9b46a96659e056ac7da24e305e05b9689cb560153365f26d64736f6c634300080f0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198906810,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "setMyAddressToTrue",
+        "type": "function",
+        "to": "created{1750198901608}",
+        "abi": "0xea707241ec273be3d3d7ea772d3d770605b9a1f2deaef76913c91172400b118e",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198937868,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "setMyAddressToTrue",
+        "type": "function",
+        "to": "created{1750198901608}",
+        "abi": "0xea707241ec273be3d3d7ea772d3d770605b9a1f2deaef76913c91172400b118e",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198959202,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "setMyAddressToTrue",
+        "type": "function",
+        "to": "created{1750198901608}",
+        "abi": "0xea707241ec273be3d3d7ea772d3d770605b9a1f2deaef76913c91172400b118e",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1750198978219,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x17f0235b9ad993dc71c2dd73534fe06c8d414e7dda4da88c2841d55308b40d7a",
+        "contractName": "ExampleMapping",
+        "bytecode": "608060405234801561001057600080fd5b506102fd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80635524107714610051578063634899ce1461006d5780637c66884414610077578063b92ba3b8146100a7575b600080fd5b61006b600480360381019061006691906101d9565b6100d7565b005b610075610105565b005b610091600480360381019061008c91906101d9565b61015e565b60405161009e9190610221565b60405180910390f35b6100c160048036038101906100bc919061029a565b61017e565b6040516100ce9190610221565b60405180910390f35b600160008083815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b60006020528060005260406000206000915054906101000a900460ff1681565b60016020528060005260406000206000915054906101000a900460ff1681565b600080fd5b6000819050919050565b6101b6816101a3565b81146101c157600080fd5b50565b6000813590506101d3816101ad565b92915050565b6000602082840312156101ef576101ee61019e565b5b60006101fd848285016101c4565b91505092915050565b60008115159050919050565b61021b81610206565b82525050565b60006020820190506102366000830184610212565b92915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006102678261023c565b9050919050565b6102778161025c565b811461028257600080fd5b50565b6000813590506102948161026e565b92915050565b6000602082840312156102b0576102af61019e565b5b60006102be84828501610285565b9150509291505056fea2646970667358221220f116c5027045218e9b46a96659e056ac7da24e305e05b9689cb560153365f26d64736f6c634300080f0033",
+        "linkReferences": {},
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1750198981717,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "setMyAddressToTrue",
+        "type": "function",
+        "to": "created{1750198978219}",
+        "abi": "0x17f0235b9ad993dc71c2dd73534fe06c8d414e7dda4da88c2841d55308b40d7a",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1750198997573,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "setMyAddressToTrue",
+        "type": "function",
+        "to": "created{1750198978219}",
+        "abi": "0x17f0235b9ad993dc71c2dd73534fe06c8d414e7dda4da88c2841d55308b40d7a",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1750199012060,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x17f0235b9ad993dc71c2dd73534fe06c8d414e7dda4da88c2841d55308b40d7a",
+        "contractName": "ExampleMapping",
+        "bytecode": "608060405234801561001057600080fd5b506102fd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80635524107714610051578063634899ce1461006d5780637c66884414610077578063b92ba3b8146100a7575b600080fd5b61006b600480360381019061006691906101d9565b6100d7565b005b610075610105565b005b610091600480360381019061008c91906101d9565b61015e565b60405161009e9190610221565b60405180910390f35b6100c160048036038101906100bc919061029a565b61017e565b6040516100ce9190610221565b60405180910390f35b600160008083815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550565b60006020528060005260406000206000915054906101000a900460ff1681565b60016020528060005260406000206000915054906101000a900460ff1681565b600080fd5b6000819050919050565b6101b6816101a3565b81146101c157600080fd5b50565b6000813590506101d3816101ad565b92915050565b6000602082840312156101ef576101ee61019e565b5b60006101fd848285016101c4565b91505092915050565b60008115159050919050565b61021b81610206565b82525050565b60006020820190506102366000830184610212565b92915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006102678261023c565b9050919050565b6102778161025c565b811461028257600080fd5b50565b6000813590506102948161026e565b92915050565b6000602082840312156102b0576102af61019e565b5b60006102be84828501610285565b9150509291505056fea2646970667358221220f116c5027045218e9b46a96659e056ac7da24e305e05b9689cb560153365f26d64736f6c634300080f0033",
+        "linkReferences": {},
+        "from": "account{1}"
+      }
+    }
+  ],
+  "abis": {
+    "0x89d013671807821d99e843bf2f267e28a590bfcc34783e9e803460fc90e88742": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_index",
+            "type": "uint256"
+          }
+        ],
+        "name": "setValue",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "myMapping",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "0xea707241ec273be3d3d7ea772d3d770605b9a1f2deaef76913c91172400b118e": [
+      {
+        "inputs": [],
+        "name": "setMyAddressToTrue",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_index",
+            "type": "uint256"
+          }
+        ],
+        "name": "setValue",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "myAddressMapping",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "myMapping",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "0x17f0235b9ad993dc71c2dd73534fe06c8d414e7dda4da88c2841d55308b40d7a": [
+      {
+        "inputs": [],
+        "name": "setMyAddressToTrue",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_index",
+            "type": "uint256"
+          }
+        ],
+        "name": "setValue",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "myAddressMapping",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "myMapping",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
